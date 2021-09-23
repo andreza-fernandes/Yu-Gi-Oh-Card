@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Yu-Gi-Oh-Card/Yu-Gi-Oh-Card.Infrastructure/obj
+/Yu-Gi-Oh-Card/Yu-Gi-Oh-Card.Service/obj
+/Yu-Gi-Oh-Card/Yu-Gi-Oh-Card.WebApp/obj
+/Yu-Gi-Oh-Card/Yu-Gi-Oh-Card.Domain/obj
+/Yu-Gi-Oh-Card/Yu-Gi-Oh-Card.API/obj

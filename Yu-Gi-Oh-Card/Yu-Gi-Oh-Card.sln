@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebApplication", "1 - WebApplication", "{DBEFFDED-DF2A-4631-902B-C26635545F16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - API", "2 - API", "{0429891E-78EE-4E64-BD1A-B7ECD0C75C52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{E47D98BA-ED65-4CC0-8E22-5B70AF83479A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Service", "4 - Service", "{04FE9F9E-F147-4A01-8B6E-D5425C34D556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{6B85A11C-9A39-433B-A447-1D1C2E25C172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yu-Gi-Oh-Card.WebApp", "Yu-Gi-Oh-Card.WebApp\Yu-Gi-Oh-Card.WebApp.csproj", "{1E844AD2-2C1B-40D2-A740-8B0849B9C9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yu-Gi-Oh-Card.API", "Yu-Gi-Oh-Card.API\Yu-Gi-Oh-Card.API.csproj", "{83110B1A-B53A-4935-9340-CE0394223983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yu-Gi-Oh-Card.Domain", "Yu-Gi-Oh-Card.Domain\Yu-Gi-Oh-Card.Domain.csproj", "{60A15E6B-EAA5-4520-960B-6BE1DAB8B4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yu-Gi-Oh-Card.Service", "Yu-Gi-Oh-Card.Service\Yu-Gi-Oh-Card.Service.csproj", "{B4F5B14E-7F38-4AC5-9384-F4355A831974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yu-Gi-Oh-Card.Infrastructure", "Yu-Gi-Oh-Card.Infrastructure\Yu-Gi-Oh-Card.Infrastructure.csproj", "{6529B1E6-24AD-49F3-9F20-4B71F29548F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E844AD2-2C1B-40D2-A740-8B0849B9C9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E844AD2-2C1B-40D2-A740-8B0849B9C9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E844AD2-2C1B-40D2-A740-8B0849B9C9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E844AD2-2C1B-40D2-A740-8B0849B9C9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83110B1A-B53A-4935-9340-CE0394223983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83110B1A-B53A-4935-9340-CE0394223983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83110B1A-B53A-4935-9340-CE0394223983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83110B1A-B53A-4935-9340-CE0394223983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A15E6B-EAA5-4520-960B-6BE1DAB8B4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A15E6B-EAA5-4520-960B-6BE1DAB8B4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A15E6B-EAA5-4520-960B-6BE1DAB8B4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A15E6B-EAA5-4520-960B-6BE1DAB8B4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F5B14E-7F38-4AC5-9384-F4355A831974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F5B14E-7F38-4AC5-9384-F4355A831974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F5B14E-7F38-4AC5-9384-F4355A831974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F5B14E-7F38-4AC5-9384-F4355A831974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6529B1E6-24AD-49F3-9F20-4B71F29548F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6529B1E6-24AD-49F3-9F20-4B71F29548F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6529B1E6-24AD-49F3-9F20-4B71F29548F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6529B1E6-24AD-49F3-9F20-4B71F29548F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E844AD2-2C1B-40D2-A740-8B0849B9C9B2} = {DBEFFDED-DF2A-4631-902B-C26635545F16}
+		{83110B1A-B53A-4935-9340-CE0394223983} = {0429891E-78EE-4E64-BD1A-B7ECD0C75C52}
+		{60A15E6B-EAA5-4520-960B-6BE1DAB8B4FF} = {E47D98BA-ED65-4CC0-8E22-5B70AF83479A}
+		{B4F5B14E-7F38-4AC5-9384-F4355A831974} = {04FE9F9E-F147-4A01-8B6E-D5425C34D556}
+		{6529B1E6-24AD-49F3-9F20-4B71F29548F4} = {6B85A11C-9A39-433B-A447-1D1C2E25C172}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5981E58F-8200-4A7F-AD78-03B3976011F4}
+	EndGlobalSection
+EndGlobal
